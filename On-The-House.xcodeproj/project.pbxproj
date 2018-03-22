@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BB4C761899A69CB3D4DE4A3 /* libPods-On-The-House.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9E4CC6B18334656D373CD1 /* libPods-On-The-House.a */; };
 		C0CF5021205CA6A9001E8163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CF5020205CA6A9001E8163 /* AppDelegate.swift */; };
 		C0CF5023205CA6A9001E8163 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CF5022205CA6A9001E8163 /* ViewController.swift */; };
 		C0CF5026205CA6A9001E8163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CF5024205CA6A9001E8163 /* Main.storyboard */; };
@@ -15,6 +16,10 @@
 		C0CF502E205CA6A9001E8163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CF502C205CA6A9001E8163 /* LaunchScreen.storyboard */; };
 		C0CF5039205CA6A9001E8163 /* On_The_HouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CF5038205CA6A9001E8163 /* On_The_HouseTests.swift */; };
 		C0CF5044205CA6A9001E8163 /* On_The_HouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CF5043205CA6A9001E8163 /* On_The_HouseUITests.swift */; };
+		C0CF50562061F6EA001E8163 /* LogInPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CF50552061F6EA001E8163 /* LogInPageController.swift */; };
+		C0CF50582061FE51001E8163 /* SignInPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CF50572061FE51001E8163 /* SignInPageController.swift */; };
+		C0F94DA520635C6000C5938B /* OfferModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F94DA420635C6000C5938B /* OfferModel.swift */; };
+		C0F94DA72063609E00C5938B /* OfferTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F94DA62063609E00C5938B /* OfferTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D0D815C9D9A595B9C8FA1EB /* Pods-On-The-House.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-On-The-House.debug.xcconfig"; path = "Pods/Target Support Files/Pods-On-The-House/Pods-On-The-House.debug.xcconfig"; sourceTree = "<group>"; };
+		BA9E4CC6B18334656D373CD1 /* libPods-On-The-House.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-On-The-House.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0CF501D205CA6A9001E8163 /* On-The-House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "On-The-House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0CF5020205CA6A9001E8163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0CF5022205CA6A9001E8163 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,12 @@
 		C0CF503F205CA6A9001E8163 /* On-The-HouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "On-The-HouseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0CF5043205CA6A9001E8163 /* On_The_HouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = On_The_HouseUITests.swift; sourceTree = "<group>"; };
 		C0CF5045205CA6A9001E8163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0CF50552061F6EA001E8163 /* LogInPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInPageController.swift; sourceTree = "<group>"; };
+		C0CF50572061FE51001E8163 /* SignInPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInPageController.swift; sourceTree = "<group>"; };
+		C0CF505A20620639001E8163 /* On-The-House-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "On-The-House-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		C0F94DA420635C6000C5938B /* OfferModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferModel.swift; sourceTree = "<group>"; };
+		C0F94DA62063609E00C5938B /* OfferTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferTableViewController.swift; sourceTree = "<group>"; };
+		C4472D925F512B50D88D2682 /* Pods-On-The-House.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-On-The-House.release.xcconfig"; path = "Pods/Target Support Files/Pods-On-The-House/Pods-On-The-House.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BB4C761899A69CB3D4DE4A3 /* libPods-On-The-House.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +90,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A6138ADA8DBFEED66278A77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D0D815C9D9A595B9C8FA1EB /* Pods-On-The-House.debug.xcconfig */,
+				C4472D925F512B50D88D2682 /* Pods-On-The-House.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A202AF54964728C977D48C96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA9E4CC6B18334656D373CD1 /* libPods-On-The-House.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C0CF5014205CA6A9001E8163 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +114,8 @@
 				C0CF5037205CA6A9001E8163 /* On-The-HouseTests */,
 				C0CF5042205CA6A9001E8163 /* On-The-HouseUITests */,
 				C0CF501E205CA6A9001E8163 /* Products */,
+				3A6138ADA8DBFEED66278A77 /* Pods */,
+				A202AF54964728C977D48C96 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +132,14 @@
 		C0CF501F205CA6A9001E8163 /* On-The-House */ = {
 			isa = PBXGroup;
 			children = (
+				C0CF50542061F6B4001E8163 /* Controller */,
+				C0CF50532061F6AB001E8163 /* Model */,
+				C0CF50522061F6A3001E8163 /* View */,
 				C0CF5020205CA6A9001E8163 /* AppDelegate.swift */,
 				C0CF5022205CA6A9001E8163 /* ViewController.swift */,
-				C0CF5024205CA6A9001E8163 /* Main.storyboard */,
 				C0CF502A205CA6A9001E8163 /* Assets.xcassets */,
 				C0CF502C205CA6A9001E8163 /* LaunchScreen.storyboard */,
+				C0CF505A20620639001E8163 /* On-The-House-Bridging-Header.h */,
 				C0CF502F205CA6A9001E8163 /* Info.plist */,
 				C0CF5027205CA6A9001E8163 /* On_The_House.xcdatamodeld */,
 			);
@@ -128,6 +164,32 @@
 			path = "On-The-HouseUITests";
 			sourceTree = "<group>";
 		};
+		C0CF50522061F6A3001E8163 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0CF5024205CA6A9001E8163 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C0CF50532061F6AB001E8163 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0F94DA420635C6000C5938B /* OfferModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C0CF50542061F6B4001E8163 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C0CF50552061F6EA001E8163 /* LogInPageController.swift */,
+				C0CF50572061FE51001E8163 /* SignInPageController.swift */,
+				C0F94DA62063609E00C5938B /* OfferTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0CF5048205CA6A9001E8163 /* Build configuration list for PBXNativeTarget "On-The-House" */;
 			buildPhases = (
+				11891BF42CADDA42F9D155DF /* [CP] Check Pods Manifest.lock */,
 				C0CF5019205CA6A9001E8163 /* Sources */,
 				C0CF501A205CA6A9001E8163 /* Frameworks */,
 				C0CF501B205CA6A9001E8163 /* Resources */,
+				C8AD68F2E71FDD12E0EDA00D /* [CP] Embed Pods Frameworks */,
+				B699CF293F5A9A3882025F2F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +322,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11891BF42CADDA42F9D155DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-On-The-House-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B699CF293F5A9A3882025F2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-On-The-House/Pods-On-The-House-resources.sh",
+				"${PODS_ROOT}/HWDownSelectedView/HWDownSelectedTF/Resources/arrow_up@2x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-On-The-House/Pods-On-The-House-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8AD68F2E71FDD12E0EDA00D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-On-The-House/Pods-On-The-House-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C0CF5019205CA6A9001E8163 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0F94DA72063609E00C5938B /* OfferTableViewController.swift in Sources */,
 				C0CF5023205CA6A9001E8163 /* ViewController.swift in Sources */,
+				C0CF50582061FE51001E8163 /* SignInPageController.swift in Sources */,
+				C0F94DA520635C6000C5938B /* OfferModel.swift in Sources */,
+				C0CF50562061F6EA001E8163 /* LogInPageController.swift in Sources */,
 				C0CF5021205CA6A9001E8163 /* AppDelegate.swift in Sources */,
 				C0CF5029205CA6A9001E8163 /* On_The_House.xcdatamodeld in Sources */,
 			);
@@ -416,6 +539,7 @@
 		};
 		C0CF5049205CA6A9001E8163 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D0D815C9D9A595B9C8FA1EB /* Pods-On-The-House.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "On-The-House/Info.plist";
@@ -428,6 +552,7 @@
 		};
 		C0CF504A205CA6A9001E8163 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4472D925F512B50D88D2682 /* Pods-On-The-House.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "On-The-House/Info.plist";
@@ -511,6 +636,7 @@
 				C0CF504A205CA6A9001E8163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0CF504B205CA6A9001E8163 /* Build configuration list for PBXNativeTarget "On-The-HouseTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +645,7 @@
 				C0CF504D205CA6A9001E8163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0CF504E205CA6A9001E8163 /* Build configuration list for PBXNativeTarget "On-The-HouseUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +654,7 @@
 				C0CF5050205CA6A9001E8163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
