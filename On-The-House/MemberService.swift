@@ -85,6 +85,7 @@ class MemberService {
                 
                 if let memberDictionary = jsonDictionary?["member"] as? [String:Any]{
                     let member = Member(memberDiction: memberDictionary)
+                    member.status = "success"
                     completion(member)
                 }else{
                     completion(nil)

@@ -50,9 +50,8 @@ class LogInPageViewController : UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         self.setMember()
-        if memberToken != nil{
-            print("here3")
             while memberToken?.status == nil {
+                print("here3")
             }
             print("here2")
             if let status = memberToken?.status{
@@ -71,11 +70,10 @@ class LogInPageViewController : UIViewController {
                 }
                 }
             }
-        }
     }
     
 //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        let nextView: MyAccountPageViewController = segue.destination as! MyAccountPageViewController
+//        let nextView: MyAccountPagesegue    UIStoryboardSegue    0x0000608000266380ViewController = segue.destination as! MyAccountPageViewController
 //        nextView.nickName = "nicknamechange"
 //    }
     

@@ -12,12 +12,12 @@ class MyAccountPageViewController: UIViewController {
 
     @IBOutlet weak var NickNameLabel: UILabel!
     
-    var nickName = "default"
+    var nickName:String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //NickNameLabel.text = nickName
+        NickNameLabel.text = nickName
 
         // Do any additional setup after loading the view.
     }
