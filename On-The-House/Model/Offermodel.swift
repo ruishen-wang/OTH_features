@@ -11,7 +11,7 @@ import CoreData
 import UIKit
 
 class OfferModel{
-
+    
     var name: String
     var photo: UIImage?
     var Description: String
@@ -20,7 +20,7 @@ class OfferModel{
         self.name = name
         self.photo = photo
         self.Description = Description
-    
+        
     }
     
     

@@ -17,6 +17,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+                let memberService = MemberService()
+        
+                memberService.getById(id: "119") { (member) in
+                    print(member?.nickname)
+                }
+        
+//                let postString = "nickname=summertestthree&first_name=Ruishen&last_name=wang&email=nazisang2@163.com&password=summer1993&password_confirm=summer1993&terms=1&zone_id=211&country_id=13&timezone_id=108&zip=10001"
+//
+//                memberService.createMember(member: postString) { (member) in
+//                    print(member?.id)
+//                }
+        
+                let postString2 = "email=nazisang@gmail.com&password=summer1993"
+        
+                memberService.login(postBody: postString2, completion: { (member) in
+                    print(member?.nickname)
+                })
         return true
     }
 
